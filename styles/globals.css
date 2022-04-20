@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.diag-top {
+  -webkit-clip-path: polygon(0 55%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.diag-bottom {
+  -webkit-clip-path: polygon(0 0, 0% 100%, 0% 100%, 100% 0);
+  clip-path: polygon(0 0, 0% 100%, 0% 100%, 100% 0);
+  
+}
