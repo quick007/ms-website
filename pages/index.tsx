@@ -38,6 +38,7 @@ const Home: NextPage = () => {
               <a
                 href="https://discord.gg/3p7tmbvSyQ"
                 target="_blank"
+                rel="noreferrer"
                 className="ml-4 px-8 py-1.5 text-lg font-semibold text-gray-300 hover:text-gray-100 rounded bg-black/20 hover:bg-black/75 border transition duration-200 border-white/5 backdrop-blur-xl"
               >
                 Discord
